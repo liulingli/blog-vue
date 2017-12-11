@@ -49,7 +49,7 @@
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color:#f2f4f5;
+    background-color:#ffffff;
     text-align: center;
     color: #333333;
     display:flex;
@@ -59,7 +59,7 @@
     flex-basis: 240px;
     box-sizing: border-box;
     padding-top:40px;
-    background-color:#ffffff;
+    background-color:#f2f4f5;
   }
   .introduce{
     padding: 30px 0;
@@ -83,7 +83,7 @@
   }
   .main-content{
     flex:1;
-    padding: 20px;
+    padding: 20px 100px;
     overflow-y:auto;
   }
 </style>
