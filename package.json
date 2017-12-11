@@ -2,7 +2,7 @@
   "name": "blog-vue",
   "version": "1.0.0",
   "description": "刘伶俐的博客",
-  "author": "liulinglis",
+  "author": "liulingli",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
