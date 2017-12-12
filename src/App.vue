@@ -36,6 +36,20 @@
 </script>
 
 <style>
+  @font-face {
+    font-family: 'iconfont';  /* project id 505797 */
+    src: url('//at.alicdn.com/t/font_505797_eviqyb9u17wg66r.eot');
+    src: url('//at.alicdn.com/t/font_505797_eviqyb9u17wg66r.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_505797_eviqyb9u17wg66r.woff') format('woff'),
+    url('//at.alicdn.com/t/font_505797_eviqyb9u17wg66r.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_505797_eviqyb9u17wg66r.svg#iconfont') format('svg');
+  }
+  .iconfont{
+    font-family: 'iconfont';
+    font-size:12px;
+    color:#3c3c3c;
+    font-style:normal;
+  }
   *{
     margin:0;
     padding:0;
@@ -85,5 +99,105 @@
     flex:1;
     padding: 20px 100px;
     overflow-y:auto;
+  }
+  ::selection {
+    background: #262a30;
+    color: #fff;
+  }
+  a {
+    color: #555;
+    text-decoration: none;
+    border-bottom: 1px solid #999;
+    word-wrap: break-word;
+    cursor: pointer;
+  }
+  a:hover {
+    color: #222;
+    border-bottom-color: #222;
+  }
+  p {
+    margin: 0 0 25px 0;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #fff;
+    background: #222;
+    border: 2px solid #222;
+    text-decoration: none;
+    border-radius: 0;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+  }
+  .blog-title {
+    font-size: 26px;
+    text-align: center;
+    word-break:break-all;
+    line-height:1.5;
+  }
+  .blog-title-link {
+    display: inline-block;
+    position: relative;
+    color: #555;
+    border-bottom: none;
+    line-height: 1.2;
+    vertical-align: top;
+  }
+  .blog-title-link:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+  .blog-title-link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+  }
+  .blog-meta{
+    margin: 3px 0 60px 0;
+    color: #999;
+    font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 12px;
+    text-align: center;
+  }
+  .blog-body {
+    text-align: justify;
+  }
+  .blog-more-link {
+    margin-top: 50px;
+  }
+  .blog-more-link .btn {
+    color: #fff;
+    font-size: 14px;
+    background: #222;
+    border-radius: 0;
+    line-height: 2;
+  }
+  .btn:hover, .blog-more-link .btn:hover {
+    border-color: #222;
+    color: #222;
+    background: #fff;
+  }
+  .blog-footer .blog-eof {
+    display: block;
+    margin: 80px auto 60px;
+    width: 8%;
+    height: 1px;
+    background: #ccc;
+    text-align: center;
   }
 </style>
